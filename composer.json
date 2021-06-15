@@ -1,0 +1,21 @@
+{
+    "name": "thomassquall/tiktok-marketing-api",
+    "description": "TikTokAPI",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "thomas",
+            "email": "thomas.cocchiara@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TikTokMarketingAPI\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
